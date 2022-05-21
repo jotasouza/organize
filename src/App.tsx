@@ -1,14 +1,3 @@
-import React from 'react';
+import { Heading } from "@chakra-ui/react";
 
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-    </div>
-  );
-}
-
-export default App;
+export const App = () => <Heading as="h1">App</Heading>;
