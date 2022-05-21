@@ -1,3 +1,3 @@
-import { Heading } from "@chakra-ui/react";
+import { RoutesApp } from "./routes";
 
-export const App = () => <Heading as="h1">App</Heading>;
+export const App = () => <RoutesApp />;
